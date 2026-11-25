@@ -50,16 +50,17 @@ Download from [GitHub › latest version](https://github.com/Dorflex-DD/APonte/r
 ## What it does
 
 - **Shared mouse and keyboard.** Move the pointer to the edge of the screen and it crosses to the other computer; the keyboard follows. `Ctrl+Alt+Pause` gives control back to the local computer.
-- **Your desk.** Drag the other computers' screens to where they really sit on your desk: beside, above, below or unaligned. It works with several monitors, a blue line shows where the mouse crosses, and the position is saved.
+- **Your desk.** Drag the other computers' screens to where they really sit on your desk. A screen always snaps against one of the four sides (left, right, above or below), monitor by monitor, also on computers with several monitors. A dashed preview shows where it will land, the blue line shows where the mouse crosses, and the position is saved.
 - **Copy and paste between computers.** Text, images and screenshots, files and folders. Each kind can be turned on or off.
 - **Send files.** Drag them onto the APonte window, pick them with the file chooser or use the APonte item in the File Explorer right-click menu.
 - **View the other computer's screen.** In a window, one monitor or all of them, also in full screen.
-- **Connection only with approval.** Each new computer has to be approved once. You can forget one approved computer or all of them.
+- **Connection only with approval.** Each new computer has to be approved once. Approved computers are listed in the Connect window, one click away, and you can forget one computer or all of them.
 - **Windows service.** With the installer, control also works on the Windows sign-in screen.
-- **Updates from the app itself.** APonte tells you when there is a new version, downloads and installs it. Packages are checked against a signed SHA-256 list.
+- **Updates from the app itself.** APonte tells you when there is a new version, downloads and installs it. It looks in two places: GitLab first and, if there is no answer, GitHub. Either way, the package is only installed after it is checked against a signed SHA-256 list.
+- **Settings with search.** Every option in a single window, grouped by subject, with a box to search for what you need.
 - **Backup.** Import and export the settings.
 - **Activity log and diagnostics.** History of connections, files and errors, with search and filters, plus a diagnostics package.
-- **Portuguese and English**, light or dark theme, accent color and interface size.
+- **Light and dark theme**, accent color and interface size, in Portuguese and English.
 - **Near the clock.** APonte can start with Windows, keep running in the icon next to the clock and reconnect by itself.
 
 ## Getting started
@@ -70,21 +71,31 @@ Download from [GitHub › latest version](https://github.com/Dorflex-DD/APonte/r
 
 ## Screenshots
 
-All images are from version 1.6.141, with sample data.
+Screenshots of APonte itself, with sample data.
 
 <p align="center">
-  <img src="docs/imagens/en/principal-conectado.png" width="820" alt="Main window, connected"><br>
-  <sub><b>Your desk</b> with one computer connected: counters, shortcuts to get started, this computer's details and activity.</sub>
+  <img src="docs/imagens/en/principal-conectado.png" width="820" alt="Main window, connected, with a two-monitor computer snapped beside it"><br>
+  <sub><b>Your desk</b> with a two-monitor computer snapped on the right: counters, shortcuts to get started, this computer's details and activity.</sub>
 </p>
 
 <p align="center">
-  <img src="docs/imagens/en/mesa-arrastando.png" width="820" alt="Dragging a screen in Your desk"><br>
-  <sub><b>Dragging a screen</b> to where it sits on the desk. The blue line shows where the mouse crosses.</sub>
+  <img src="docs/imagens/en/mesa-arrastando.png" width="820" alt="Dragging a computer's screens in Your desk"><br>
+  <sub><b>Dragging a computer</b> to the other side: the dashed preview shows where each monitor will snap and the blue line shows where the mouse crosses.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/imagens/en/principal-conectado-escuro.png" width="820" alt="Main window in the dark theme"><br>
+  <sub><b>Dark theme</b>: the same window, with the same features.</sub>
 </p>
 
 <p align="center">
   <img src="docs/imagens/en/principal-sem-conexao.png" width="820" alt="Main window, not connected"><br>
-  <sub><b>Not connected</b>: the computers already approved are one click away, in <i>Other computers</i>.</sub>
+  <sub><b>Not connected</b>: the desk shows only this computer; <i>Allow Connection</i> and <i>Connect</i> are at hand.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/imagens/en/menu-arquivo.png" width="820" alt="File button with its menu open"><br>
+  <sub><b>File menu</b>: settings, import and export, help and the recent computers.</sub>
 </p>
 
 <p align="center">
@@ -94,11 +105,29 @@ All images are from version 1.6.141, with sample data.
 
 | | |
 |:---:|:---:|
-| <img src="docs/imagens/en/conectar.png" alt="Connect window"><br><sub><b>Connect</b>: name or address, port and which side the other one sits on.</sub> | <img src="docs/imagens/en/aprovar.png" alt="Connection request"><br><sub><b>Connection request</b>: only those you allow get in.</sub> |
+| <img src="docs/imagens/en/conectar.png" alt="Connect window"><br><sub><b>Connect</b>: name or address, port, the side and the list of approved computers.</sub> | <img src="docs/imagens/en/aprovar.png" alt="Connection request"><br><sub><b>Connection request</b>: only those you allow get in.</sub> |
 | <img src="docs/imagens/en/enviar.png" alt="Sending files"><br><sub><b>Send files</b> with progress and speed.</sub> | <img src="docs/imagens/en/sobre.png" alt="About APonte"><br><sub><b>About</b>: version, what's new, terms and update check.</sub> |
-| <img src="docs/imagens/en/menu-arquivo.png" alt="File menu"><br><sub><b>File menu</b> with the recent computers.</sub> | <img src="docs/imagens/en/menu-mesa.png" alt="Right-click menu on a screen of the desk"><br><sub><b>Right-click</b> on a screen of the desk.</sub> |
-| <img src="docs/imagens/en/config-geral.png" alt="Settings, General page"><br><sub><b>Settings › General</b></sub> | <img src="docs/imagens/en/config-conexao.png" alt="Settings, Connection page"><br><sub><b>Settings › Connection</b></sub> |
-| <img src="docs/imagens/en/config-aparencia.png" alt="Settings, Appearance page"><br><sub><b>Settings › Appearance</b>: theme, color and size.</sub> | <img src="docs/imagens/en/registro.png" alt="Activity Log"><br><sub><b>Activity Log</b> with search and filters.</sub> |
+| <img src="docs/imagens/en/menu-mesa.png" alt="Right-click menu on a screen of the desk"><br><sub><b>Right-click</b> on a screen of the desk: view the screen, send files and position.</sub> | <img src="docs/imagens/en/registro.png" alt="Activity Log"><br><sub><b>Activity Log</b> with search and filters.</sub> |
+
+<p align="center">
+  <img src="docs/imagens/en/config-windows.png" width="760" alt="Settings, Windows page"><br>
+  <sub><b>Settings</b>: subjects on the left and every option in a single scroll.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/imagens/en/config-busca.png" width="760" alt="Search in Settings"><br>
+  <sub><b>Search Settings</b>: type and only what matches stays.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/imagens/en/config-aparencia.png" width="760" alt="Settings, Appearance page"><br>
+  <sub><b>Settings › Appearance</b>: theme, accent color, size and language.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/imagens/en/config-rede.png" width="760" alt="Settings, Network page and approved computers"><br>
+  <sub><b>Settings › Network</b> and <b>Approved Computers</b>: forget one computer or all of them.</sub>
+</p>
 
 ## Requirements
 
@@ -110,7 +139,8 @@ The installer opens in Portuguese. For English, run `msiexec /i "file.msi" TRANS
 
 ## Updates
 
-- APonte tells you when there is a new version and updates itself (**Settings › Update** or **About › Check for Updates**). The check can be turned off in Settings.
+- APonte tells you when there is a new version and updates itself (**Settings › Updates** or **About › Check for Updates**). The check can be turned off in Settings.
+- The new-version check uses two places: GitLab and, if it does not answer, GitHub. The signature check is the same for both.
 - Updating keeps the settings and the approved computers.
 - If you use 1.6.125, 1.6.126 or 1.6.127 with only .NET 10, first install the [.NET Desktop Runtime 11 x64](https://dotnet.microsoft.com/download/dotnet/11.0) or download the `com-runtime` package in the same format you already use.
 - **Portable, by hand:** close APonte, delete everything in its folder except the `dados` folder, and extract the new package. Never extract over the old files.
@@ -121,7 +151,7 @@ The installer opens in Portuguese. For English, run `msiexec /i "file.msi" TRANS
 - **Local network.** The computers talk directly to each other, over your network. There is no account or sign-up.
 - **Approval.** A new computer only gets in after you allow it. Name and address are not enough: each computer has its own identity, checked on every connection, and the connection between them is encrypted.
 - **Checked updates.** Before installing a new version, APonte checks the packages against a SHA-256 list signed by the author.
-- **Your data stays with you.** APonte stores its data only in its own folder and does not send information to the author. The new-version check only queries the public release address.
+- **Your data stays with you.** APonte stores its data only in its own folder and does not send information to the author. The new-version check only queries the public release addresses (GitLab and GitHub).
 
 ## License
 

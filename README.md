@@ -50,16 +50,17 @@ Baixe em [GitHub › versão mais recente](https://github.com/Dorflex-DD/APonte/
 ## O que ele faz
 
 - **Mouse e teclado compartilhados.** Leve o ponteiro até a borda da tela e ele passa para o outro computador; o teclado acompanha. `Ctrl+Alt+Pause` devolve o controle ao computador local.
-- **Sua mesa.** Arraste as telas dos outros computadores para onde elas estão de verdade na sua mesa: ao lado, acima, abaixo ou desalinhadas. Funciona com vários monitores, uma linha azul mostra por onde o mouse passa e a posição fica salva.
+- **Sua mesa.** Arraste as telas dos outros computadores para onde elas estão de verdade na sua mesa. A tela sempre encaixa encostada em um dos quatro lados (esquerda, direita, acima ou abaixo), monitor a monitor, também em computadores com vários monitores. Uma prévia tracejada mostra onde ela vai ficar, a linha azul mostra por onde o mouse passa e a posição fica salva.
 - **Copiar e colar entre os computadores.** Textos, imagens e prints, arquivos e pastas. Cada tipo pode ser ligado ou desligado.
 - **Enviar arquivos.** Arraste para a janela do APonte, escolha pelo seletor de arquivos ou use o item do APonte no menu do botão direito do Explorador de Arquivos.
 - **Ver a tela do outro computador.** Numa janela, por monitor ou todos juntos, também em tela cheia.
-- **Conexão só com aprovação.** Cada computador novo precisa ser aprovado uma vez. Dá para esquecer um computador aprovado ou todos.
+- **Conexão só com aprovação.** Cada computador novo precisa ser aprovado uma vez. Os aprovados ficam na janela Conectar, a um clique, e dá para esquecer um computador ou todos.
 - **Serviço do Windows.** Com o instalador, o controle funciona também na tela de entrada do Windows.
-- **Atualização pelo próprio app.** O APonte avisa quando há versão nova, baixa e instala. Os pacotes são conferidos por uma lista SHA-256 assinada.
+- **Atualização pelo próprio app.** O APonte avisa quando há versão nova, baixa e instala. Ele procura por dois caminhos: primeiro no GitLab e, se não houver resposta, no GitHub. Nos dois, o pacote só é instalado depois de conferido por uma lista SHA-256 assinada.
+- **Configurações com busca.** Todas as opções numa janela só, separadas por assunto, com um campo para procurar o que você precisa.
 - **Backup.** Importar e exportar as configurações.
 - **Registro e diagnóstico.** Histórico de conexões, arquivos e erros, com busca e filtros, e pacote de diagnóstico.
-- **Português e inglês**, tema claro ou escuro, cor de destaque e tamanho da interface.
+- **Tema claro e escuro**, cor de destaque e tamanho da interface, em português e inglês.
 - **Perto do relógio.** O APonte pode iniciar com o Windows, continuar no ícone ao lado do relógio e reconectar sozinho.
 
 ## Como começar
@@ -70,21 +71,31 @@ Baixe em [GitHub › versão mais recente](https://github.com/Dorflex-DD/APonte/
 
 ## Imagens
 
-Todas as imagens são da versão 1.6.141, com dados de exemplo.
+Imagens do próprio APonte, com dados de exemplo.
 
 <p align="center">
-  <img src="docs/imagens/pt/principal-conectado.png" width="820" alt="Janela principal conectada"><br>
-  <sub><b>Sua mesa</b> com um computador conectado: contadores, atalhos para começar, dados deste computador e atividade.</sub>
+  <img src="docs/imagens/pt/principal-conectado.png" width="820" alt="Janela principal conectada, com um computador de dois monitores encostado"><br>
+  <sub><b>Sua mesa</b> com um computador de dois monitores encostado à direita: contadores, atalhos para começar, dados deste computador e atividade.</sub>
 </p>
 
 <p align="center">
-  <img src="docs/imagens/pt/mesa-arrastando.png" width="820" alt="Arrastando uma tela na Sua mesa"><br>
-  <sub><b>Arrastando uma tela</b> para o lugar onde ela está na mesa. A linha azul mostra por onde o mouse passa.</sub>
+  <img src="docs/imagens/pt/mesa-arrastando.png" width="820" alt="Arrastando as telas de um computador na Sua mesa"><br>
+  <sub><b>Arrastando um computador</b> para o outro lado: a prévia tracejada mostra onde cada monitor vai encaixar e a linha azul, por onde o mouse passa.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/imagens/pt/principal-conectado-escuro.png" width="820" alt="Janela principal no tema escuro"><br>
+  <sub><b>Tema escuro</b>: a mesma janela, com as mesmas funções.</sub>
 </p>
 
 <p align="center">
   <img src="docs/imagens/pt/principal-sem-conexao.png" width="820" alt="Janela principal sem conexão"><br>
-  <sub><b>Sem conexão</b>: os computadores já aprovados ficam a um clique, em <i>Outros computadores</i>.</sub>
+  <sub><b>Sem conexão</b>: a mesa mostra só este computador; <i>Permitir conexão</i> e <i>Conectar</i> ficam à mão.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/imagens/pt/menu-arquivo.png" width="820" alt="Botão Arquivo com o menu aberto"><br>
+  <sub><b>Menu Arquivo</b>: configurações, importar e exportar, ajuda e os computadores recentes.</sub>
 </p>
 
 <p align="center">
@@ -94,11 +105,29 @@ Todas as imagens são da versão 1.6.141, com dados de exemplo.
 
 | | |
 |:---:|:---:|
-| <img src="docs/imagens/pt/conectar.png" alt="Janela Conectar"><br><sub><b>Conectar</b>: nome ou endereço, porta e de que lado o outro fica.</sub> | <img src="docs/imagens/pt/aprovar.png" alt="Pedido de conexão"><br><sub><b>Pedido de conexão</b>: só entra quem você permitir.</sub> |
+| <img src="docs/imagens/pt/conectar.png" alt="Janela Conectar"><br><sub><b>Conectar</b>: nome ou endereço, porta, o lado e a lista dos computadores aprovados.</sub> | <img src="docs/imagens/pt/aprovar.png" alt="Pedido de conexão"><br><sub><b>Pedido de conexão</b>: só entra quem você permitir.</sub> |
 | <img src="docs/imagens/pt/enviar.png" alt="Enviando arquivos"><br><sub><b>Enviar arquivos</b> com andamento e velocidade.</sub> | <img src="docs/imagens/pt/sobre.png" alt="Sobre o APonte"><br><sub><b>Sobre</b>: versão, novidades, termos e verificação de atualização.</sub> |
-| <img src="docs/imagens/pt/menu-arquivo.png" alt="Menu Arquivo"><br><sub><b>Menu Arquivo</b> com os computadores recentes.</sub> | <img src="docs/imagens/pt/menu-mesa.png" alt="Menu do botão direito na tela da mesa"><br><sub><b>Botão direito</b> numa tela da mesa.</sub> |
-| <img src="docs/imagens/pt/config-geral.png" alt="Configurações, página Geral"><br><sub><b>Configurações › Geral</b></sub> | <img src="docs/imagens/pt/config-conexao.png" alt="Configurações, página Conexão"><br><sub><b>Configurações › Conexão</b></sub> |
-| <img src="docs/imagens/pt/config-aparencia.png" alt="Configurações, página Aparência"><br><sub><b>Configurações › Aparência</b>: tema, cor e tamanho.</sub> | <img src="docs/imagens/pt/registro.png" alt="Registro"><br><sub><b>Registro</b> com busca e filtros.</sub> |
+| <img src="docs/imagens/pt/menu-mesa.png" alt="Menu do botão direito na tela da mesa"><br><sub><b>Botão direito</b> numa tela da mesa: ver a tela, enviar arquivos e posição.</sub> | <img src="docs/imagens/pt/registro.png" alt="Registro"><br><sub><b>Registro</b> com busca e filtros.</sub> |
+
+<p align="center">
+  <img src="docs/imagens/pt/config-windows.png" width="760" alt="Configurações, página Windows"><br>
+  <sub><b>Configurações</b>: os assuntos à esquerda e todas as opções numa rolagem só.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/imagens/pt/config-busca.png" width="760" alt="Busca nas Configurações"><br>
+  <sub><b>Procurar nas configurações</b>: digite e fica só o que combina.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/imagens/pt/config-aparencia.png" width="760" alt="Configurações, página Aparência"><br>
+  <sub><b>Configurações › Aparência</b>: tema, cor de destaque, tamanho e idioma.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/imagens/pt/config-rede.png" width="760" alt="Configurações, página Rede e computadores aprovados"><br>
+  <sub><b>Configurações › Rede</b> e <b>Computadores aprovados</b>: esquecer um computador ou todos.</sub>
+</p>
 
 ## Requisitos
 
@@ -110,7 +139,8 @@ O instalador abre em português. Para inglês, execute `msiexec /i "arquivo.msi"
 
 ## Atualizações
 
-- O APonte avisa quando há versão nova e faz a atualização (**Configurações › Atualização** ou **Sobre › Verificar atualização**). A verificação pode ser desligada nas Configurações.
+- O APonte avisa quando há versão nova e faz a atualização (**Configurações › Atualizações** ou **Sobre › Verificar atualização**). A verificação pode ser desligada nas Configurações.
+- A busca da versão nova usa dois caminhos: o GitLab e, se ele não responder, o GitHub. A conferência da assinatura é a mesma nos dois.
 - Atualizar mantém as configurações e os computadores aprovados.
 - Se você usa a 1.6.125, 1.6.126 ou 1.6.127 com apenas o .NET 10, instale antes o [.NET Desktop Runtime 11 x64](https://dotnet.microsoft.com/download/dotnet/11.0) ou baixe o pacote `com-runtime` no mesmo formato que já usa.
 - **Portátil, à mão:** feche o APonte, apague tudo na pasta dele, menos a pasta `dados`, e descompacte o pacote novo. Nunca descompacte por cima.
@@ -121,7 +151,7 @@ O instalador abre em português. Para inglês, execute `msiexec /i "arquivo.msi"
 - **Rede local.** Os computadores conversam diretamente entre si, pela sua rede. Não há conta nem cadastro.
 - **Aprovação.** Um computador novo só entra depois que você permite. Nome e endereço não bastam: cada computador tem uma identidade própria, que é conferida a cada conexão, e a conexão entre eles é cifrada.
 - **Atualizações conferidas.** Antes de instalar uma versão nova, o APonte confere os pacotes por uma lista SHA-256 assinada pelo autor.
-- **Seus dados ficam com você.** O APonte grava seus dados apenas na própria pasta e não envia informações ao autor. A verificação de versão nova consulta apenas o endereço público de publicação.
+- **Seus dados ficam com você.** O APonte grava seus dados apenas na própria pasta e não envia informações ao autor. A verificação de versão nova consulta apenas os endereços públicos de publicação (GitLab e GitHub).
 
 ## Licença
 

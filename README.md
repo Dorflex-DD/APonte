@@ -49,11 +49,11 @@ O APonte liga os PCs Windows da mesma rede: o ponteiro passa da borda de uma tel
 ## Baixar / Download
 - [Instalador e portátil — versão mais nova / Installer and portable — latest version](https://github.com/Dorflex-DD/APonte/releases/latest)
 
-Windows 10/11 x64 · .NET 11 Desktop Runtime (ou o pacote "com-runtime", que já traz o .NET / *or the "com-runtime" package, which includes .NET*)
+Windows 10/11 x64 · .NET 11 Desktop Runtime x64. Dois pacotes por versão: instalador `.msi` e portátil `.zip`. / *Two packages per version: `.msi` installer and portable `.zip`.*
 
-## Novidades / What's new — v1.6.150
-- Temas como no Windows 7: Windows 7 Basic com 10 cores de janela ou Windows Clássico. / *Windows 7-style themes: Windows 7 Basic in 10 window colors or Windows Classic.*
-- Janelas, menus, botões e barras no desenho escolhido, na hora. / *Windows, menus, buttons and bars change right away.*
-- Sua mesa com as telas maiores; ao arrastar, ela se afasta para caber. / *Bigger screens on Your desk; it zooms out while you drag.*
+## Novidades / What's new — v1.6.151
+- Visual Windows 7 completo: títulos, links e ícones na cor da janela escolhida. / *Full Windows 7 look: titles, links and icons in the chosen window color.*
+- Configurações › Aparência: muda na hora e Cancelar desfaz; tamanho 90%, 100% ou 115%. / *Settings › Appearance: applies right away, Cancel undoes it; size 90%, 100% or 115%.*
+- Atualização e instalação mais firmes: sem o falso "Sem permissão" e sem parar no fim. / *Sturdier update and install: no false "No permission" and no stop at the end.*
 
 <sub>© 2024-2026 Fabio Fernando Giacomelli. Uso somente com autorização escrita do autor. / Use only with the author's written authorization.</sub>

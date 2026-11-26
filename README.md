@@ -51,9 +51,9 @@ O APonte liga os PCs Windows da mesma rede: o ponteiro passa da borda de uma tel
 
 Windows 10/11 x64 · .NET 11 Desktop Runtime x64. Dois pacotes por versão: instalador `.msi` e portátil `.zip`. / *Two packages per version: `.msi` installer and portable `.zip`.*
 
-## Novidades / What's new — v1.6.155
-- Ícones coloridos e botões do título no jeito do Windows 7 em todo o app. / *Windows 7 style color icons and title buttons throughout the app.*
-- Janela principal com grupos do Windows 7 no lugar dos cartões brancos. / *Main window with Windows 7 groups instead of white cards.*
-- Configurações uma página por vez, com grupos e "Restaurar padrão" no rodapé. / *Settings one page at a time, with groups and "Restore defaults" at the bottom.*
+## Novidades / What's new — v1.6.156
+- Cantos de cima das janelas arredondados como no Windows 7, sem o cantinho preto. / *Window top corners rounded like Windows 7, without the black corner.*
+- Bolinha verde ou cinza no estado do serviço. / *Green or gray dot for the service status.*
+- Ícones coloridos, botões do título e grupos no jeito do Windows 7. / *Windows 7 style color icons, title buttons and groups.*
 
 <sub>© 2024-2026 Fabio Fernando Giacomelli. Uso somente com autorização escrita do autor. / Use only with the author's written authorization.</sub>

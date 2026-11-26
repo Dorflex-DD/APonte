@@ -51,9 +51,9 @@ O APonte liga os PCs Windows da mesma rede: o ponteiro passa da borda de uma tel
 
 Windows 10/11 x64 · .NET 11 Desktop Runtime x64. Dois pacotes por versão: instalador `.msi` e portátil `.zip`. / *Two packages per version: `.msi` installer and portable `.zip`.*
 
-## Novidades / What's new — v1.6.153
-- Tela do outro computador no visual Windows 7: a imagem encosta na moldura, com barra fina e barra de status. / *The other computer's screen in the Windows 7 look: edge-to-edge image, thin bar and status bar.*
-- Pedido de conexão como mensagem do Windows 7. / *Connection request as a Windows 7 message.*
-- Trocar tema ou cor nas Configurações não volta mais para a primeira página. / *Changing theme or color in Settings no longer jumps back to the first page.*
+## Novidades / What's new — v1.6.154
+- Configurações no visual Windows 7: uma página por vez e grupos com o título na borda. / *Settings in the Windows 7 look: one page at a time and groups titled on the border.*
+- "Restaurar padrão" no rodapé das Configurações. / *"Restore defaults" at the bottom of Settings.*
+- Tela do outro computador e pedido de conexão no visual Windows 7. / *The other computer's screen and the connection request in the Windows 7 look.*
 
 <sub>© 2024-2026 Fabio Fernando Giacomelli. Uso somente com autorização escrita do autor. / Use only with the author's written authorization.</sub>

@@ -50,7 +50,7 @@ Baixe em [GitHub › versão mais recente](https://github.com/Dorflex-DD/APonte/
 ## O que ele faz
 
 - **Mouse e teclado compartilhados.** Leve o ponteiro até a borda da tela e ele passa para o outro computador; o teclado acompanha. `Ctrl+Alt+Pause` devolve o controle ao computador local.
-- **Sua mesa.** Arraste as telas dos outros computadores para onde elas estão de verdade na sua mesa. A tela sempre encaixa encostada em um dos quatro lados (esquerda, direita, acima ou abaixo), monitor a monitor, também em computadores com vários monitores. Uma prévia tracejada mostra onde ela vai ficar, a linha azul mostra por onde o mouse passa e a posição fica salva. No computador cliente a Sua mesa mostra também as telas do servidor, na posição que ele arrumou, e acompanha na hora.
+- **Sua mesa.** Arraste as telas dos outros computadores para onde elas estão de verdade na sua mesa. A tela sempre encaixa encostada em um dos quatro lados (esquerda, direita, acima ou abaixo), monitor a monitor, também em computadores com vários monitores. Uma prévia tracejada mostra onde ela vai ficar, a linha colorida mostra por onde o mouse passa e a posição fica salva. No computador cliente a Sua mesa mostra também as telas do servidor, na posição que ele arrumou, e acompanha na hora.
 - **Passagem por monitor.** Com o botão direito num monitor, escolha se o mouse passa ou não por ele. Se o mouse do cliente não passa para o servidor porque a opção "Clientes podem controlar este PC" está desligada, a própria mesa avisa.
 - **Copiar e colar entre os computadores.** Textos, imagens e prints, arquivos e pastas. Cada tipo pode ser ligado ou desligado.
 - **Enviar arquivos.** Arraste para a janela do APonte, escolha pelo seletor de arquivos ou use o item do APonte no menu do botão direito do Explorador de Arquivos.
@@ -61,7 +61,7 @@ Baixe em [GitHub › versão mais recente](https://github.com/Dorflex-DD/APonte/
 - **Configurações com busca.** Todas as opções numa janela só, separadas por assunto, com um campo para procurar o que você precisa.
 - **Backup.** Importar e exportar as configurações.
 - **Registro e diagnóstico.** Histórico de conexões, arquivos e erros, com busca e filtros, e pacote de diagnóstico.
-- **Tema claro e escuro**, cor de destaque e tamanho da interface, em português e inglês.
+- **Tema claro e escuro**, cor de destaque e tamanho da interface, em português e inglês. A cor escolhida vale para a janela inteira: ícones, faixa, Sua mesa, seleções e o ícone perto do relógio.
 - **Perto do relógio.** O APonte pode iniciar com o Windows, continuar no ícone ao lado do relógio e reconectar sozinho.
 
 ## Como começar
@@ -81,17 +81,28 @@ Imagens do próprio APonte, com dados de exemplo.
 
 <p align="center">
   <img src="docs/imagens/pt/mesa-arrastando.png" width="820" alt="Arrastando as telas de um computador na Sua mesa"><br>
-  <sub><b>Arrastando um computador</b> para o outro lado: a prévia tracejada mostra onde cada monitor vai encaixar e a linha azul, por onde o mouse passa.</sub>
+  <sub><b>Arrastando um computador</b> para o outro lado: a prévia tracejada mostra onde cada monitor vai encaixar e a linha colorida, por onde o mouse passa.</sub>
 </p>
 
 <p align="center">
   <img src="docs/imagens/pt/mesa-cliente.png" width="820" alt="Sua mesa no computador cliente, com as telas do servidor"><br>
-  <sub><b>No cliente</b>: a Sua mesa mostra também as telas do servidor, como ele as arrumou, com a linha azul por onde o mouse passa.</sub>
+  <sub><b>No cliente</b>: a Sua mesa mostra também as telas do servidor, como ele as arrumou, com a linha colorida por onde o mouse passa.</sub>
 </p>
 
 <p align="center">
   <img src="docs/imagens/pt/passagem-por-monitor.png" width="820" alt="Monitor com a passagem do mouse desligada"><br>
   <sub><b>Passagem por monitor</b>: o monitor 2 do outro computador ficou sem passagem; o mouse entra e sai só pelo monitor 1.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/imagens/pt/cor-verde.png" width="820" alt="Janela principal com a cor de destaque verde"><br>
+  <sub><b>Cor de destaque</b>: escolhida a cor verde, a janela inteira acompanha — ícones, faixa, Sua mesa, seleções e o ícone do APonte.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/imagens/pt/cor-roxo.png" width="410" alt="Janela principal com a cor de destaque roxa">
+  <img src="docs/imagens/pt/cor-verde-escuro.png" width="410" alt="Janela principal no tema escuro com a cor verde"><br>
+  <sub>A cor roxa no tema claro e a verde no tema escuro.</sub>
 </p>
 
 <p align="center">

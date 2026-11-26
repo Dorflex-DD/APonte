@@ -50,7 +50,7 @@ Download from [GitHub › latest version](https://github.com/Dorflex-DD/APonte/r
 ## What it does
 
 - **Shared mouse and keyboard.** Move the pointer to the edge of the screen and it crosses to the other computer; the keyboard follows. `Ctrl+Alt+Pause` gives control back to the local computer.
-- **Your desk.** Drag the other computers' screens to where they really sit on your desk. A screen always snaps against one of the four sides (left, right, above or below), monitor by monitor, also on computers with several monitors. A dashed preview shows where it will land, the blue line shows where the mouse crosses, and the position is saved. On the client computer, Your desk also shows the server's screens, in the position the server arranged them, and follows it live.
+- **Your desk.** Drag the other computers' screens to where they really sit on your desk. A screen always snaps against one of the four sides (left, right, above or below), monitor by monitor, also on computers with several monitors. A dashed preview shows where it will land, the colored line shows where the mouse crosses, and the position is saved. On the client computer, Your desk also shows the server's screens, in the position the server arranged them, and follows it live.
 - **Crossing per monitor.** Right-click a monitor to choose whether the mouse crosses through it. If the client's mouse does not cross to the server because the "Clients can control this PC" option is off, the desk itself says so.
 - **Copy and paste between computers.** Text, images and screenshots, files and folders. Each kind can be turned on or off.
 - **Send files.** Drag them onto the APonte window, pick them with the file chooser or use the APonte item in the File Explorer right-click menu.
@@ -61,7 +61,7 @@ Download from [GitHub › latest version](https://github.com/Dorflex-DD/APonte/r
 - **Settings with search.** Every option in a single window, grouped by subject, with a box to search for what you need.
 - **Backup.** Import and export the settings.
 - **Activity log and diagnostics.** History of connections, files and errors, with search and filters, plus a diagnostics package.
-- **Light and dark theme**, accent color and interface size, in Portuguese and English.
+- **Light and dark theme**, accent color and interface size, in Portuguese and English. The chosen color applies to the whole window: icons, ribbon, Your desk, selections and the icon near the clock.
 - **Near the clock.** APonte can start with Windows, keep running in the icon next to the clock and reconnect by itself.
 
 ## Getting started
@@ -81,17 +81,28 @@ Screenshots of APonte itself, with sample data.
 
 <p align="center">
   <img src="docs/imagens/en/mesa-arrastando.png" width="820" alt="Dragging a computer's screens in Your desk"><br>
-  <sub><b>Dragging a computer</b> to the other side: the dashed preview shows where each monitor will snap and the blue line shows where the mouse crosses.</sub>
+  <sub><b>Dragging a computer</b> to the other side: the dashed preview shows where each monitor will snap and the colored line shows where the mouse crosses.</sub>
 </p>
 
 <p align="center">
   <img src="docs/imagens/en/mesa-cliente.png" width="820" alt="Your desk on the client computer, with the server's screens"><br>
-  <sub><b>On the client</b>: Your desk also shows the server's screens, as the server arranged them, with the blue line where the mouse crosses.</sub>
+  <sub><b>On the client</b>: Your desk also shows the server's screens, as the server arranged them, with the colored line where the mouse crosses.</sub>
 </p>
 
 <p align="center">
   <img src="docs/imagens/en/passagem-por-monitor.png" width="820" alt="Monitor with mouse crossing turned off"><br>
   <sub><b>Crossing per monitor</b>: monitor 2 of the other computer has no crossing; the mouse enters and leaves only through monitor 1.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/imagens/en/cor-verde.png" width="820" alt="Main window with the green accent color"><br>
+  <sub><b>Accent color</b>: with green chosen, the whole window follows — icons, ribbon, Your desk, selections and the APonte icon.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/imagens/en/cor-roxo.png" width="410" alt="Main window with the purple accent color">
+  <img src="docs/imagens/en/cor-verde-escuro.png" width="410" alt="Main window in the dark theme with green"><br>
+  <sub>Purple in the light theme and green in the dark theme.</sub>
 </p>
 
 <p align="center">

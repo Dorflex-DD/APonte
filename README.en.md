@@ -50,7 +50,8 @@ Download from [GitHub › latest version](https://github.com/Dorflex-DD/APonte/r
 ## What it does
 
 - **Shared mouse and keyboard.** Move the pointer to the edge of the screen and it crosses to the other computer; the keyboard follows. `Ctrl+Alt+Pause` gives control back to the local computer.
-- **Your desk.** Drag the other computers' screens to where they really sit on your desk. A screen always snaps against one of the four sides (left, right, above or below), monitor by monitor, also on computers with several monitors. A dashed preview shows where it will land, the blue line shows where the mouse crosses, and the position is saved.
+- **Your desk.** Drag the other computers' screens to where they really sit on your desk. A screen always snaps against one of the four sides (left, right, above or below), monitor by monitor, also on computers with several monitors. A dashed preview shows where it will land, the blue line shows where the mouse crosses, and the position is saved. On the client computer, Your desk also shows the server's screens, in the position the server arranged them, and follows it live.
+- **Crossing per monitor.** Right-click a monitor to choose whether the mouse crosses through it. If the client's mouse does not cross to the server because the "Clients can control this PC" option is off, the desk itself says so.
 - **Copy and paste between computers.** Text, images and screenshots, files and folders. Each kind can be turned on or off.
 - **Send files.** Drag them onto the APonte window, pick them with the file chooser or use the APonte item in the File Explorer right-click menu.
 - **View the other computer's screen.** In a window, one monitor or all of them, also in full screen.
@@ -81,6 +82,16 @@ Screenshots of APonte itself, with sample data.
 <p align="center">
   <img src="docs/imagens/en/mesa-arrastando.png" width="820" alt="Dragging a computer's screens in Your desk"><br>
   <sub><b>Dragging a computer</b> to the other side: the dashed preview shows where each monitor will snap and the blue line shows where the mouse crosses.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/imagens/en/mesa-cliente.png" width="820" alt="Your desk on the client computer, with the server's screens"><br>
+  <sub><b>On the client</b>: Your desk also shows the server's screens, as the server arranged them, with the blue line where the mouse crosses.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/imagens/en/passagem-por-monitor.png" width="820" alt="Monitor with mouse crossing turned off"><br>
+  <sub><b>Crossing per monitor</b>: monitor 2 of the other computer has no crossing; the mouse enters and leaves only through monitor 1.</sub>
 </p>
 
 <p align="center">

@@ -51,9 +51,9 @@ O APonte liga os PCs Windows da mesma rede: o ponteiro passa da borda de uma tel
 
 Windows 10/11 x64 · .NET 11 Desktop Runtime x64. Dois pacotes por versão: instalador `.msi` e portátil `.zip`. / *Two packages per version: `.msi` installer and portable `.zip`.*
 
-## Novidades / What's new — v1.6.151
-- Visual Windows 7 completo: títulos, links e ícones na cor da janela escolhida. / *Full Windows 7 look: titles, links and icons in the chosen window color.*
-- Configurações › Aparência: muda na hora e Cancelar desfaz; tamanho 90%, 100% ou 115%. / *Settings › Appearance: applies right away, Cancel undoes it; size 90%, 100% or 115%.*
-- Atualização e instalação mais firmes: sem o falso "Sem permissão" e sem parar no fim. / *Sturdier update and install: no false "No permission" and no stop at the end.*
+## Novidades / What's new — v1.6.152
+- Telas em 125% ou mais: textos não cortam, caixas de marcar quebram a linha e os botões do título ficam dentro da janela. / *Screens at 125% or more: no cut texts, check boxes wrap and title buttons stay inside the window.*
+- Tamanho da interface (Pequeno, Médio, Grande) também nas Configurações e nas outras janelas, na hora. / *Interface size (Small, Medium, Large) also in Settings and the other windows, right away.*
+- Visual Windows 7 completo, com 10 cores ou Windows Clássico. / *Full Windows 7 look, in 10 colors or Windows Classic.*
 
 <sub>© 2024-2026 Fabio Fernando Giacomelli. Uso somente com autorização escrita do autor. / Use only with the author's written authorization.</sub>

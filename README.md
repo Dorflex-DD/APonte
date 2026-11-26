@@ -51,9 +51,9 @@ O APonte liga os PCs Windows da mesma rede: o ponteiro passa da borda de uma tel
 
 Windows 10/11 x64 · .NET 11 Desktop Runtime x64. Dois pacotes por versão: instalador `.msi` e portátil `.zip`. / *Two packages per version: `.msi` installer and portable `.zip`.*
 
-## Novidades / What's new — v1.6.152
-- Telas em 125% ou mais: textos não cortam, caixas de marcar quebram a linha e os botões do título ficam dentro da janela. / *Screens at 125% or more: no cut texts, check boxes wrap and title buttons stay inside the window.*
-- Tamanho da interface (Pequeno, Médio, Grande) também nas Configurações e nas outras janelas, na hora. / *Interface size (Small, Medium, Large) also in Settings and the other windows, right away.*
-- Visual Windows 7 completo, com 10 cores ou Windows Clássico. / *Full Windows 7 look, in 10 colors or Windows Classic.*
+## Novidades / What's new — v1.6.153
+- Tela do outro computador no visual Windows 7: a imagem encosta na moldura, com barra fina e barra de status. / *The other computer's screen in the Windows 7 look: edge-to-edge image, thin bar and status bar.*
+- Pedido de conexão como mensagem do Windows 7. / *Connection request as a Windows 7 message.*
+- Trocar tema ou cor nas Configurações não volta mais para a primeira página. / *Changing theme or color in Settings no longer jumps back to the first page.*
 
 <sub>© 2024-2026 Fabio Fernando Giacomelli. Uso somente com autorização escrita do autor. / Use only with the author's written authorization.</sub>
